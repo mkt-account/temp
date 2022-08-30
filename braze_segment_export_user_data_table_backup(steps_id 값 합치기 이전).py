@@ -12,8 +12,8 @@ from itertools import chain
 
 s3 = boto3.resource(
         's3',
-        aws_access_key_id='AKIAVUNY43ERDEZ6MIOT',
-        aws_secret_access_key='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'
+        aws_access_key_id='AWS-ACCESS-KEY-ID',
+        aws_secret_access_key='AWS-SECRET-ACCESS-KEY'
 )
 Bucket = 'bucketplace-mkt'
 today = datetime.now(timezone('Asia/Seoul'))
